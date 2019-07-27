@@ -1,0 +1,323 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f3f0f0;
+}
+
+::selection {
+  background-color: #FBC30F;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/*
+=============================
+Start Header
+=============================
+*/
+.HeaderSeacrh input:focus {
+  box-shadow: none;
+  border: none;
+}
+
+.MenuMenu {
+  transform: translate(-100%, 0%);
+  transition: all .3s linear;
+}
+
+.menu {
+  background: #000;
+  transition: all .3s linear;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+}
+
+header {
+  background-color: #000;
+}
+header .header-menu {
+  font-size: 20px;
+  color: #fff;
+  padding: 60px 0;
+}
+header .header-menu a {
+  color: #fff;
+}
+header .header-menu a i {
+  font-size: 25px;
+}
+header .header-img {
+  padding: 30px 0;
+  text-align: center;
+}
+header .header-menu-right {
+  padding-top: 60px;
+  font-size: 18px;
+}
+header .header-menu-right ul {
+  margin: 0;
+  padding: 0;
+}
+header .header-menu-right ul li {
+  list-style: none;
+}
+header .header-menu-right ul li span {
+  color: #fff;
+}
+header .header-menu-right ul li span i {
+  font-size: 25px;
+}
+header .header-menu-right .icon-parent {
+  position: relative;
+}
+header .header-menu-right .icon-bullet::before {
+  content: "0";
+  text-align: center;
+  color: #000;
+  position: absolute;
+  top: -15px;
+  left: 11px;
+  background-color: #FBC30F;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+
+/*
+=============================
+End of the Header
+=============================
+*/
+.ImageMenu img {
+  margin-top: -15px;
+}
+
+.menu-ul {
+  padding-top: 100px;
+}
+.menu-ul .menu-main-ul {
+  display: flex;
+}
+.menu-ul .menu-main-ul li {
+  list-style: none;
+  padding-right: 100px;
+}
+.menu-ul .menu-main-ul li a {
+  font-size: 15px;
+  color: #fff;
+}
+.menu-ul .menu-main-ul li a:hover {
+  color: #fff;
+}
+.menu-ul .menu-sub-ul span {
+  margin-left: 60px;
+  color: #817c7c;
+}
+.menu-ul .menu-sub-ul .sub-ul {
+  display: flex;
+}
+.menu-ul .menu-sub-ul .sub-ul .ul1 {
+  padding-right: 100px;
+}
+.menu-ul .menu-sub-ul .sub-ul ul li {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.menu-ul .menu-sub-ul .sub-ul ul li a {
+  color: #fff;
+}
+.menu-ul .menu-sub-ul .sub-ul ul li a:hover {
+  color: #9c9797;
+}
+
+/*
+=============================
+Start Category Menu
+=============================
+*/
+.category-menu {
+  position: relative;
+  text-align: center;
+  margin: 30px 0;
+}
+.category-menu .row {
+  background: #fff;
+  border-radius: 5px;
+}
+.category-menu .row .category-items-first:hover {
+  background-color: #FBC30F;
+  border-radius: 5px 0 0 5px;
+}
+.category-menu .row .category-items-first:hover i, .category-menu .row .category-items-first:hover span {
+  color: #fff;
+}
+.category-menu .row .category-items-last:hover {
+  background-color: #FBC30F;
+  border-radius: 0 5px 5px 0;
+}
+.category-menu .row .category-items-last:hover i, .category-menu .row .category-items-last:hover span {
+  color: #fff;
+}
+.category-menu .row .category-items:hover {
+  background-color: #FBC30F;
+}
+.category-menu .row .category-items:hover i, .category-menu .row .category-items:hover span {
+  color: #fff;
+}
+.category-menu .row i, .category-menu .row span {
+  color: #000;
+}
+
+.sub-menu {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  border: 1px solid #000;
+  margin-top: -20px;
+}
+.sub-menu ul {
+  display: flex;
+}
+.sub-menu ul li {
+  list-style: none;
+  padding-right: 80px;
+}
+.sub-menu ul li a {
+  color: #000;
+}
+.sub-menu ul li a:hover {
+  color: #000;
+}
+
+.notebook {
+  display: none;
+}
+
+.category-items:hover .notebook {
+  display: block !important;
+}
+
+/*
+=============================
+End of the Category Menu
+=============================
+*/
+.Services {
+  background: #fff;
+  padding: 20px 0px;
+}
+.Services .servicesIcon {
+  text-align: center;
+}
+.Services .servicesIcon .servicesText {
+  padding-top: 10px;
+}
+.Services .servicesIcon i {
+  font-size: 35px;
+}
+
+/*
+=============================
+Start Footer
+=============================
+*/
+footer {
+  background-color: #000;
+}
+footer .footer-contact ul {
+  margin: 0;
+  padding: 0;
+}
+footer .footer-contact ul li {
+  list-style: none;
+}
+footer .footer-contact ul li a {
+  color: #fff;
+}
+footer .footer-contact ul li .contact-title {
+  font-size: 15px;
+}
+footer .footer-contact ul li span {
+  font-size: 13px;
+}
+footer h5 {
+  font-weight: 500;
+  color: #FBC30F;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer span {
+  color: #fff;
+  font-size: 13px;
+}
+footer .footer-icons {
+  color: #fff;
+  font-size: 20px;
+}
+footer .footer-links ul {
+  margin: 0;
+  padding: 0;
+}
+footer .footer-links ul li {
+  list-style: none;
+}
+footer .footer-links ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer-links ul li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer-question input {
+  box-shadow: none;
+}
+footer .footer-question input:focus {
+  box-shadow: none;
+}
+footer .footer-question textarea {
+  box-shadow: none;
+}
+footer .footer-question textarea:focus {
+  box-shadow: none;
+}
+footer .footer-question .footer-btn {
+  background-color: #FBC30F;
+  color: #000;
+  box-shadow: none;
+}
+footer .footer-line {
+  background-color: #f3f0f0;
+}
+
+/*
+=============================
+End of the Footer
+=============================
+*/
+@media (max-width: 768px) {
+  .menu {
+    position: fixed;
+  }
+}
+@media (max-width: 540px) {
+  .menu {
+    position: fixed;
+  }
+  .menu ul {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
